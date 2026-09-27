@@ -1,0 +1,18 @@
+=== Problem 1: primal and derived dual ===
+primal LP: The problem is unbounded
+dual LP  : The problem is infeasible
+x0 = [0. 0. 2. 2.]:  Ax0 = [0. 4. 6.],  c'x0 = +0,  satisfies constraints: True
+ray= [-1.  0.  1. -3.]:  Aray = [-6.  7.  0.],  c'ray = -1,  satisfies constraints: True
+
+=== Problem 2: (i) <=> (ii) on 2000 random integer matrices ===
+both true: 1140 | both false: 860 | disagreements: 0
+
+=== Problem 3: 500 inequalities in 100 variables ===
+full system infeasible: True
+(a) dual optimum t* = 1.1517 > 0;  vertex support |S| = 101  (bound n+1 = 101)
+    certificate: ||sum p_i a_i|| = 2.6e-11,  sum p_i b_i = -1.1517 < 0
+    subsystem S infeasible (independent LP check): True
+    dropping any single row of S: still infeasible in 0 of 101 cases (so S is minimal)
+(b) dense certificate: support 180,  ||A'q|| = 1.8e-11,  b'q = -1.0000
+    after 79 reduction steps: support 101,  ||A'q|| = 1.8e-11,  b'q = -1.0000
+    reduced subsystem infeasible (independent LP check): True

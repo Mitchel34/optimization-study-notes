@@ -1,0 +1,63 @@
+# Public repository allowlist. Everything is private/local unless listed here.
+# This excludes course handouts (hw0/ and hw04/hw04.pdf), peer material
+# (HW1_Solution/), .DS_Store, environments, caches, tmp/, and LaTeX build files.
+*
+
+!.gitignore
+!README.md
+
+# Week 1: personal solutions, study guide, examples, and generated figures.
+!hw01/
+!hw01/hw01_solutions.tex
+!hw01/hw01_solutions.pdf
+!hw01/hw01_study_guide.tex
+!hw01/hw01_study_guide.pdf
+!hw01/verify.py
+!hw01/verify_output.txt
+!hw01/make_figures.py
+!hw01/figures/
+!hw01/figures/convex_function.png
+!hw01/figures/convex_vs_nonconvex.png
+!hw01/figures/halfspace_voronoi.png
+!hw01/figures/max_convex.png
+!hw01/figures/min_not_convex.png
+!hw01/figures/no_strict_separation.png
+!hw01/figures/parallel_hyperplanes.png
+!hw01/figures/problem4_set.png
+!hw01/figures/quasiconvex.png
+!hw01/figures/separating_hyperplane.png
+!hw01/figures/union_not_convex.png
+
+# Week 3: personal notes and reproducible, synthetic examples.
+!hw03/
+!hw03/hw03_solutions.tex
+!hw03/hw03_solutions.pdf
+!hw03/hw03_solutions_expanded.tex
+!hw03/hw03_solutions_expanded.pdf
+!hw03/hw03_study_guide.tex
+!hw03/hw03_study_guide.pdf
+!hw03/verify.py
+!hw03/verify_output.txt
+!hw03/make_figures.py
+!hw03/focused_example.py
+!hw03/focused_example_output.txt
+!hw03/p3_data.npz
+!hw03/figures/
+!hw03/figures/g_comp_slack.pdf
+!hw03/figures/g_farkas.pdf
+!hw03/figures/g_tight.pdf
+!hw03/figures/g_weak_duality.pdf
+!hw03/figures/p1_ray.pdf
+!hw03/figures/p2_alternatives.pdf
+!hw03/figures/p3_focused_example.pdf
+!hw03/figures/p3_helly2d.pdf
+!hw03/figures/p3_support.pdf
+
+# Week 4: personal notes and numerical verification; no assignment handout.
+!hw04/
+!hw04/hw04_solutions.tex
+!hw04/hw04_solutions.pdf
+!hw04/hw04_study_guide.tex
+!hw04/hw04_study_guide.pdf
+!hw04/verify.py
+!hw04/verification_results.json

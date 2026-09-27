@@ -1,0 +1,2 @@
+Certificate: A.T @ p = [0 0] ; b @ p = -2
+Every pair of inequalities is feasible: True

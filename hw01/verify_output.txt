@@ -1,0 +1,3 @@
+Problem 3: memberships agree on all samples: True (42872 of 100000 points closer to v1)
+           midpoint on boundary: c^T m - d = 0.0
+Problem 4: 3023 points in set; 0 of 5000 random convex combinations left the set
